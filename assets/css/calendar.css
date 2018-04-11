@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+
+table{
+border-collapse:collapse;
+-webkit-box-shadow: 4px 4px 20px -6px rgba(0,0,0,0.7);
+-moz-box-shadow: 4px 4px 20px -6px rgba(0,0,0,0.7);
+box-shadow: 4px 4px 20px -6px rgba(0,0,0,0.7);
+font-family: "Open Sans";
+}
+td{
+text-align: center;
+border: 1px solid #e2e0e0;
+font-size: 14px;
+}
+th{
+padding-bottom: 8px;
+background:#ECECEC;
+font-size: 16px;
+}
+.prev_sign a, .next_sign a{
+color:white;
+text-decoration: none;
+}
+tr.week_name{
+font-size: 12px;
+font-weight:400;
+color:red;
+width: 10px;
+background-color: #efe8e8;
+}
+.highlight{
+background-color:#25BAE4;
+color:white;
+height: 27px;
+padding-top: 13px;
+padding-bottom: 7px;
+}
